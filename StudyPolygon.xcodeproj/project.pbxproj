@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		304A50E42B7604C400C12186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304A50E32B7604C400C12186 /* AppDelegate.swift */; };
 		304A50E62B7604C400C12186 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304A50E52B7604C400C12186 /* SceneDelegate.swift */; };
-		304A50E82B7604C400C12186 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304A50E72B7604C400C12186 /* ViewController.swift */; };
+		304A50E82B7604C400C12186 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304A50E72B7604C400C12186 /* LoginViewController.swift */; };
 		304A50EB2B7604C400C12186 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 304A50E92B7604C400C12186 /* Main.storyboard */; };
 		304A50EE2B7604C400C12186 /* StudyPolygon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 304A50EC2B7604C400C12186 /* StudyPolygon.xcdatamodeld */; };
 		304A50F02B7604C700C12186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 304A50EF2B7604C700C12186 /* Assets.xcassets */; };
@@ -40,7 +40,7 @@
 		304A50E02B7604C400C12186 /* StudyPolygon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyPolygon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304A50E32B7604C400C12186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		304A50E52B7604C400C12186 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		304A50E72B7604C400C12186 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		304A50E72B7604C400C12186 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		304A50EA2B7604C400C12186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		304A50ED2B7604C400C12186 /* StudyPolygon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudyPolygon.xcdatamodel; sourceTree = "<group>"; };
 		304A50EF2B7604C700C12186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 			children = (
 				304A50E32B7604C400C12186 /* AppDelegate.swift */,
 				304A50E52B7604C400C12186 /* SceneDelegate.swift */,
-				304A50E72B7604C400C12186 /* ViewController.swift */,
+				304A50E72B7604C400C12186 /* LoginViewController.swift */,
 				304A50E92B7604C400C12186 /* Main.storyboard */,
 				304A50EF2B7604C700C12186 /* Assets.xcassets */,
 				304A50F12B7604C700C12186 /* LaunchScreen.storyboard */,
@@ -261,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				304A50E82B7604C400C12186 /* ViewController.swift in Sources */,
+				304A50E82B7604C400C12186 /* LoginViewController.swift in Sources */,
 				304A50E42B7604C400C12186 /* AppDelegate.swift in Sources */,
 				304A50EE2B7604C400C12186 /* StudyPolygon.xcdatamodeld in Sources */,
 				304A50E62B7604C400C12186 /* SceneDelegate.swift in Sources */,
