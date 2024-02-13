@@ -9,7 +9,6 @@ import UIKit
 
 class LoginViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var imageLogin: UIImageView!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginTextField: UITextField!
    
@@ -46,6 +45,45 @@ class LoginViewController: UIViewController {
                 self.scrollView?.endEditing(true)
             }
 
+    
+    func checkResultUserData() -> Bool {
+        let login = loginTextField.text
+        let password = passwordTextField.text
+        if login == "1" && password == "1" {
+            return true
+        } else {
+            return false
+        }
+        
+    }
+    
+    func showAlert() {
+        let alert = UIAlertController(title: "Error", message: "Wrong password", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Ok", style: .cancel)
+        alert.addAction(action)
+        present(alert, animated: true)
+    }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        let result = checkResultUserData()
+        if !result {
+            showAlert()
+        }
+            return result
+    }
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//      switch  segue.identifier {
+//      case "Login":
+//          let destination = segue.destination
+//          
+//      default: break
+//      }
+//        
+//    }
 
+    @IBAction func signInButton(_ sender: UIButton) {
+//        performSegue(withIdentifier: "Login", sender: nil)
+    }
 }
 
