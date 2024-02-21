@@ -49,7 +49,7 @@ class LoginViewController: UIViewController {
     func checkResultUserData() -> Bool {
         let login = loginTextField.text
         let password = passwordTextField.text
-        if login == "1" && password == "1" {
+        if login == "" && password == "" {
             return true
         } else {
             return false
@@ -72,18 +72,9 @@ class LoginViewController: UIViewController {
             return result
     }
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//      switch  segue.identifier {
-//      case "Login":
-//          let destination = segue.destination
-//          
-//      default: break
-//      }
-//        
-//    }
 
     @IBAction func signInButton(_ sender: UIButton) {
-//        performSegue(withIdentifier: "Login", sender: nil)
+        print(#function)
     }
 }
 

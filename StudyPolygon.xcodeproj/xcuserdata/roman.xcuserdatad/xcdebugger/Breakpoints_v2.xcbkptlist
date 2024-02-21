@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0432DFCE-99A9-430A-A6BB-C88AEC62B56C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "552B2B67-2394-44DF-9BED-A0A6090320FB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StudyPolygon/PhotoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "PhotoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "552B2B67-2394-44DF-9BED-A0A6090320FB - 8ed3f795313db9a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudyPolygon.PhotoViewController.photo.getter : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "StudyPolygon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roman/Desktop/StudyPolygon/StudyPolygon/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "552B2B67-2394-44DF-9BED-A0A6090320FB - 35b8a107dc47c3f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudyPolygon.PhotoViewController.photo.setter : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "StudyPolygon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roman/Desktop/StudyPolygon/StudyPolygon/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "552B2B67-2394-44DF-9BED-A0A6090320FB - 8129548b53b45406"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudyPolygon.PhotoViewController.photo.modify : Swift.Optional&lt;__C.UIImage&gt;"
+                  moduleName = "StudyPolygon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roman/Desktop/StudyPolygon/StudyPolygon/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "552B2B67-2394-44DF-9BED-A0A6090320FB - efbbdbed8fcc4ee4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudyPolygon.PhotoViewController.photo.modify : Swift.Optional&lt;__C.UIImage&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "StudyPolygon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roman/Desktop/StudyPolygon/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "552B2B67-2394-44DF-9BED-A0A6090320FB - 4a50821679078caa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudyPolygon.PhotoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; StudyPolygon.PhotoViewController"
+                  moduleName = "StudyPolygon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roman/Desktop/StudyPolygon/StudyPolygon/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "127">
+               </Location>
+               <Location
+                  uuid = "552B2B67-2394-44DF-9BED-A0A6090320FB - 3996ff9d7de8e3de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudyPolygon.PhotoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;StudyPolygon.PhotoViewController&gt;"
+                  moduleName = "StudyPolygon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roman/Desktop/StudyPolygon/StudyPolygon/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "663E232B-BD44-4B7A-BE28-C4F349E8500B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StudyPolygon/PhotoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "663E232B-BD44-4B7A-BE28-C4F349E8500B - d259f52f3fd18bf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudyPolygon.PhotoViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "StudyPolygon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roman/Desktop/StudyPolygon/StudyPolygon/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "663E232B-BD44-4B7A-BE28-C4F349E8500B - d259f52f3fd18bd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StudyPolygon.PhotoViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "StudyPolygon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roman/Desktop/StudyPolygon/StudyPolygon/PhotoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "421">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

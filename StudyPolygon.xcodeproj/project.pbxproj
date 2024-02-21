@@ -17,6 +17,14 @@
 		304A50FE2B7604C700C12186 /* StudyPolygonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304A50FD2B7604C700C12186 /* StudyPolygonTests.swift */; };
 		304A51082B7604C700C12186 /* StudyPolygonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304A51072B7604C700C12186 /* StudyPolygonUITests.swift */; };
 		304A510A2B7604C700C12186 /* StudyPolygonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304A51092B7604C700C12186 /* StudyPolygonUITestsLaunchTests.swift */; };
+		305229D22B837446008AC968 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305229D12B837446008AC968 /* Model.swift */; };
+		309506832B851EAC00BC2145 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309506822B851EAC00BC2145 /* SearchViewController.swift */; };
+		30DB82942B837B02002E373F /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB82932B837B02002E373F /* FriendsViewController.swift */; };
+		30DB82962B837B1C002E373F /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB82952B837B1C002E373F /* GroupsViewController.swift */; };
+		30DB82982B837B42002E373F /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB82972B837B42002E373F /* FriendTableViewCell.swift */; };
+		30DB829A2B837B4E002E373F /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB82992B837B4E002E373F /* GroupTableViewCell.swift */; };
+		30DB829C2B837B68002E373F /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB829B2B837B68002E373F /* PhotoCollectionViewCell.swift */; };
+		30DB829E2B837C80002E373F /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB829D2B837C80002E373F /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		304A51032B7604C700C12186 /* StudyPolygonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyPolygonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		304A51072B7604C700C12186 /* StudyPolygonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPolygonUITests.swift; sourceTree = "<group>"; };
 		304A51092B7604C700C12186 /* StudyPolygonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPolygonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		305229D12B837446008AC968 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		309506822B851EAC00BC2145 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		30DB82932B837B02002E373F /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		30DB82952B837B1C002E373F /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		30DB82972B837B42002E373F /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		30DB82992B837B4E002E373F /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		30DB829B2B837B68002E373F /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		30DB829D2B837C80002E373F /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +117,13 @@
 		304A50E22B7604C400C12186 /* StudyPolygon */ = {
 			isa = PBXGroup;
 			children = (
-				304A50E32B7604C400C12186 /* AppDelegate.swift */,
-				304A50E52B7604C400C12186 /* SceneDelegate.swift */,
-				304A50E72B7604C400C12186 /* LoginViewController.swift */,
 				304A50E92B7604C400C12186 /* Main.storyboard */,
 				304A50EF2B7604C700C12186 /* Assets.xcassets */,
+				309506812B851E3800BC2145 /* Controller */,
+				308D30312B850AEC000596BA /* Cell */,
+				305229D02B83742B008AC968 /* Model */,
+				304A50E32B7604C400C12186 /* AppDelegate.swift */,
+				304A50E52B7604C400C12186 /* SceneDelegate.swift */,
 				304A50F12B7604C700C12186 /* LaunchScreen.storyboard */,
 				304A50F42B7604C700C12186 /* Info.plist */,
 				304A50EC2B7604C400C12186 /* StudyPolygon.xcdatamodeld */,
@@ -128,6 +146,36 @@
 				304A51092B7604C700C12186 /* StudyPolygonUITestsLaunchTests.swift */,
 			);
 			path = StudyPolygonUITests;
+			sourceTree = "<group>";
+		};
+		305229D02B83742B008AC968 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				305229D12B837446008AC968 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		308D30312B850AEC000596BA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				30DB82992B837B4E002E373F /* GroupTableViewCell.swift */,
+				30DB829B2B837B68002E373F /* PhotoCollectionViewCell.swift */,
+				30DB82972B837B42002E373F /* FriendTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		309506812B851E3800BC2145 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				30DB82932B837B02002E373F /* FriendsViewController.swift */,
+				304A50E72B7604C400C12186 /* LoginViewController.swift */,
+				30DB82952B837B1C002E373F /* GroupsViewController.swift */,
+				30DB829D2B837C80002E373F /* PhotoViewController.swift */,
+				309506822B851EAC00BC2145 /* SearchViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +309,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30DB829A2B837B4E002E373F /* GroupTableViewCell.swift in Sources */,
+				30DB82962B837B1C002E373F /* GroupsViewController.swift in Sources */,
+				30DB829C2B837B68002E373F /* PhotoCollectionViewCell.swift in Sources */,
 				304A50E82B7604C400C12186 /* LoginViewController.swift in Sources */,
 				304A50E42B7604C400C12186 /* AppDelegate.swift in Sources */,
 				304A50EE2B7604C400C12186 /* StudyPolygon.xcdatamodeld in Sources */,
+				309506832B851EAC00BC2145 /* SearchViewController.swift in Sources */,
+				305229D22B837446008AC968 /* Model.swift in Sources */,
+				30DB82942B837B02002E373F /* FriendsViewController.swift in Sources */,
 				304A50E62B7604C400C12186 /* SceneDelegate.swift in Sources */,
+				30DB82982B837B42002E373F /* FriendTableViewCell.swift in Sources */,
+				30DB829E2B837C80002E373F /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
