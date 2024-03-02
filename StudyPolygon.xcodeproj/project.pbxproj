@@ -18,6 +18,8 @@
 		304A51082B7604C700C12186 /* StudyPolygonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304A51072B7604C700C12186 /* StudyPolygonUITests.swift */; };
 		304A510A2B7604C700C12186 /* StudyPolygonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304A51092B7604C700C12186 /* StudyPolygonUITestsLaunchTests.swift */; };
 		305229D22B837446008AC968 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305229D12B837446008AC968 /* Model.swift */; };
+		306600992B930BA4000E4DDF /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306600982B930BA4000E4DDF /* TestViewController.swift */; };
+		3066009B2B933797000E4DDF /* TestControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3066009A2B933797000E4DDF /* TestControl.swift */; };
 		309506832B851EAC00BC2145 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309506822B851EAC00BC2145 /* SearchViewController.swift */; };
 		30DB82942B837B02002E373F /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB82932B837B02002E373F /* FriendsViewController.swift */; };
 		30DB82962B837B1C002E373F /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DB82952B837B1C002E373F /* GroupsViewController.swift */; };
@@ -60,6 +62,8 @@
 		304A51072B7604C700C12186 /* StudyPolygonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPolygonUITests.swift; sourceTree = "<group>"; };
 		304A51092B7604C700C12186 /* StudyPolygonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPolygonUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		305229D12B837446008AC968 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		306600982B930BA4000E4DDF /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		3066009A2B933797000E4DDF /* TestControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestControl.swift; sourceTree = "<group>"; };
 		309506822B851EAC00BC2145 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		30DB82932B837B02002E373F /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		30DB82952B837B1C002E373F /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				304A50F12B7604C700C12186 /* LaunchScreen.storyboard */,
 				304A50F42B7604C700C12186 /* Info.plist */,
 				304A50EC2B7604C400C12186 /* StudyPolygon.xcdatamodeld */,
+				306600982B930BA4000E4DDF /* TestViewController.swift */,
+				3066009A2B933797000E4DDF /* TestControl.swift */,
 			);
 			path = StudyPolygon;
 			sourceTree = "<group>";
@@ -314,11 +320,13 @@
 				30DB829C2B837B68002E373F /* PhotoCollectionViewCell.swift in Sources */,
 				304A50E82B7604C400C12186 /* LoginViewController.swift in Sources */,
 				304A50E42B7604C400C12186 /* AppDelegate.swift in Sources */,
+				306600992B930BA4000E4DDF /* TestViewController.swift in Sources */,
 				304A50EE2B7604C400C12186 /* StudyPolygon.xcdatamodeld in Sources */,
 				309506832B851EAC00BC2145 /* SearchViewController.swift in Sources */,
 				305229D22B837446008AC968 /* Model.swift in Sources */,
 				30DB82942B837B02002E373F /* FriendsViewController.swift in Sources */,
 				304A50E62B7604C400C12186 /* SceneDelegate.swift in Sources */,
+				3066009B2B933797000E4DDF /* TestControl.swift in Sources */,
 				30DB82982B837B42002E373F /* FriendTableViewCell.swift in Sources */,
 				30DB829E2B837C80002E373F /* PhotoViewController.swift in Sources */,
 			);
